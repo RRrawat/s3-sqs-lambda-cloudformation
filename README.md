@@ -76,7 +76,3 @@ aws s3 ls s3://{DestinationBucketName}
     ```bash
     aws cloudformation list-stacks --query "StackSummaries[?contains(StackName,'STACK_NAME')].StackStatus"
     ```
-----
-Copyright 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-
-SPDX-License-Identifier: MIT-0
