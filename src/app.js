@@ -1,7 +1,3 @@
-/*! Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
- *  SPDX-License-Identifier: MIT-0
- */
-
 const AWS = require('aws-sdk')
 AWS.config.update({region: process.env.AWS_REGION})
 const s3 = new AWS.S3()
